@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="ico/icon.ico">
+
+    <!-- Local Bootstrap -->
+    <link rel="stylesheet" href="bootstrap4/css/bootstrap.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" 
+    integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <script src="https://use.fontawesome.com/05d211e6ee.js"></script>
+
+    <!-- Normalize css -->
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <!-- Local css -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+
+    <title>Number System Converter</title>
+  </head>
+  <body>
+
+    <header>
+      <div class="container" align="center">
+      </div>
+    </header>
+    
+    <main>
+
+      <!--Container-->
+      <div class="container" align="center">
+
+        <img id="mylogo" src="img/icon.svg" alt="">
+
+        <!--Form-->
+        <form>
+
+          <!--Form Group-->
+          <div class="form-group">
+
+            <div class="input-group">
+                <div class="input-group-addon"><span class="fa fa-hourglass-end"></span></div>
+                <input type="number" id="base" class="form-control" placeholder="Enter number base">
+            </div>
+
+            <div class="input-group">
+                <div class="input-group-addon"><span class="fa fa-hourglass"></span></div>
+                <input type="text" id="number" class="form-control" placeholder="Enter your number here" disabled>
+            </div>
+
+            <!--Divider-->
+            <div class="divider">
+                <hr class="left"/>Convert To<hr class="right" />
+            </div>
+            <!--Divider-->
+
+            <div class="input-group">
+                <div class="input-group-addon"><span class="fa fa-hourglass-end"></span></div>
+                <input type="number" id="convertBase" class="form-control" placeholder="Enter number base">
+            </div>
+            
+          </div>
+           <!--Form Group-->
+
+        </form>
+        <!--Form-->
+
+        <button type="button" class="btn btn-primary" id="btnConvert">Convert It</button>
+
+        <h2 id="converted">010101</h2>
+
+      </div>
+      <!--Container-->
+
+    </main>
+
+    <footer class="footer">
+      <!--container-->
+        <div class="container">
+          <!--row-->
+          <div class="row">
+            
+            <div class="col" id="leftSide">
+              <span class="text-muted">
+                John Mark Gabrentina
+                &copy 2017
+              </span>
+            </div>
+
+            <div class="col-6" id="centerSide">
+              <p>Number System Converter</p>
+            </div>
+
+            <div class="col" id="rightSide">
+              <span class="text-muted">
+                Version: Alpha 1.0 <br>
+               <img src="img/icons8-github.svg" height="30px" width="30px" alt=""> GitHub: 
+                <a href="https://github.com/johnmark14/Number-System-Converter" target="blank">Number System Converter</a>
+              </span>
+            </div>
+
+          </div>
+          <!--row-->
+        </div>
+        <!--container-->
+      </footer>
+
+
+
+
+    <!-- Local jQuery -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+
+    <!-- Local script -->
+    <script src="js/master.js"></script>
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.js"
+    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  </body>
+</html>
